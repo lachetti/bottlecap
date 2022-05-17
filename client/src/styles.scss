@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+$font-family: Arial, Roboto, "Helvetica Neue", sans-serif;
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: $font-family !important;
+
+  .popover {
+    font-family: $font-family;
+  }
+}
+
+.dropdown button.dropdown-toggle::after {
+  vertical-align: middle;
+}
